@@ -1,0 +1,35 @@
+.hero-holder {
+    /* padding: 2.5rem; */
+    height: 100%;
+    width: 100vw;
+}
+
+.hero {
+    background-image: url("../../images/hero.jpeg");
+    height: 85vh;
+    /* height: 100%; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 2.5rem;
+    margin-top: 15px;
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: left;
+    font-family: Roboto;
+}
+
+p{
+    background-color: #554e4594;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: Roboto;
+}

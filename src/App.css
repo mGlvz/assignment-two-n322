@@ -1,3 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 2.5rem;
+}
+
+.button{
+  padding: 5px 15px;
+  border-radius: 5%;
+  width: 150px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-white{
+  background-color: white;
+  color:black;
+}
+
+.button-black{
+  background-color: #37322c;
+  color:white;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +32,11 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@font-face {
+  font-family: Roboto ;
+  src: url(../src/fonts/Roboto-Regular.ttf);
 }
 
 @media (prefers-reduced-motion: no-preference) {

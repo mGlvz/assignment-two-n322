@@ -1,0 +1,15 @@
+.nav {
+    /* background-color:
+    #667982; */
+    /* background-color: #9c9180; */
+    background-color: #554e45;
+    /* background-color: #a4adb1; */
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: -25px;
+};
